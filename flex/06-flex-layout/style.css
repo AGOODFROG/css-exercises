@@ -5,17 +5,30 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 img {
   width: 600px;
+  border: 5px solid #ac2020;
 }
+
 
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 4px
+ 
+}
+.header{
+  display: flex;
+  justify-self: start;
+  align-self: flex-start;
 }
 
 input {
@@ -24,4 +37,10 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
