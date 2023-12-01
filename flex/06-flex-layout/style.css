@@ -6,7 +6,7 @@ body {
   overflow: hidden;
   font-family: Roboto, sans-serif;
   display: flex;
-  flex-direction: column;
+  justify-self: start;
   justify-content: center;
   align-items: center;
 }
@@ -25,10 +25,14 @@ button {
   padding: 4px
  
 }
-.header{
+.header{ 
   display: flex;
   justify-self: start;
   align-self: flex-start;
+}
+.rignt-links{
+  justify-self: space-between;
+
 }
 
 input {
