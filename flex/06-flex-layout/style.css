@@ -25,15 +25,14 @@ button {
   padding: 4px
  
 }
-.header{ 
+.header.right-links,.left-links{ 
   display: flex;
-  justify-self: start;
+  justify-self: flex-start;
   align-self: flex-start;
-}
-.rignt-links{
-  justify-self: space-between;
 
 }
+
+
 
 input {
   border: 1px solid #ddd;
